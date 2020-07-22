@@ -13,8 +13,9 @@
             header("Location: notas.php");    
         else
         {
-            /*echo "Usuario o password incorrecto <a href='signup.php'>Registrarse?</a>"; 
-            echo "<br><a href='signin.php'>Ingresar</a>";*/
+            //echo "Usuario o password incorrecto <a href='signup.php'>Registrarse?</a>"; 
+            //echo "<br><a href='signin.php'>Ingresar</a>";
+
             $_SESSION['message'] = 'fallo inicio de sesion Registrese';
             $_SESSION['message_type'] = 'warning';
             header("Location: signin.php");
